@@ -1,0 +1,88 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: relative;
+
+}
+
+html,body{
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	min-height: 100%;
+	height: auto;
+}
+
+.container{
+	float: left;
+	display: flex;
+	position: fixed;
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+
+}
+
+
+.container img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	min-width: 50%;
+	min-height: 50%;
+
+}
+.text{
+	color: white;
+	width: 500px;
+	margin: 50px;
+	padding: 20px;
+	background-color: rgb(0,0,0); 
+	opacity: 1;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 12px;
+
+}
+
+.button {
+border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+font-size: 14px;
+padding: 10px; /*espacio alrededor texto*/
+background-color: #DB3030; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Roboto'; /*tipografía texto*/
+border-radius: 0px; /*bordes redondos*/
+}
+
+
+
+@media (min-width: 600px) {
+	.test
+	{
+	 width: 600%;	
+	}
+    
+}
+* mobile first */
+body { font-size: 14px; }
+
+/* tabletas */
+@media (min-width: 768px) {
+  body { font-size: 15px; }
+}
+
+/* escritorio normales */
+@media (min-width: 992px) {
+  body { font-size: 16px; }
+}
+
+/* pantallas grandes */
+@media (min-width: 1200px) {
+  body { font-size: 17px; }
+}
